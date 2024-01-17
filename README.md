@@ -1,3 +1,3 @@
 
 
-    git clone --recurse-submodules git@github.com:seyhadot/macsetup.git ~/.config/.dotfiles
+    git clone --recurse-submodules https://github.com/seyhadot/macsetup.git ~/.config/.dotfiles
