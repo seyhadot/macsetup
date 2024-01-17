@@ -1,0 +1,24 @@
+/*
+░█▀▀░▀█▀░█▀▄░█▀▀░█▀▄░█▀█░█▀▄
+░▀▀█░░█░░█░█░█▀▀░█▀▄░█▀█░█▀▄
+░▀▀▀░▀▀▀░▀▀░░▀▀▀░▀▀░░▀░▀░▀░▀
+
+Sidebar
+*/
+
+#sidebar-box{
+	--sidebar-background-color: var(--bf-sidebar-bg) !important;
+	--sidebar-text-color: var(--bf-sidebar-color) !important;
+}
+
+#sidebar,
+.sidebar-panel {
+	background: transparent !important;
+}
+
+/* Sidebar searchbar */
+#sidebar-search-container #search-box {
+	border: none !important;
+	padding: 6px !important;
+	border-radius: var(--bf-sidebar-searchbar-radius) !important;
+}

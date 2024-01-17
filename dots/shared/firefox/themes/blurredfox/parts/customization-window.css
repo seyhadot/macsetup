@@ -1,0 +1,29 @@
+
+/*
+░█▀▀░█░█░█▀▀░▀█▀░█▀█░█▄█░▀█▀░▀▀█░█▀█░▀█▀░▀█▀░█▀█░█▀█░█░█░▀█▀░█▀█░█▀▄░█▀█░█░█
+░█░░░█░█░▀▀█░░█░░█░█░█░█░░█░░▄▀░░█▀█░░█░░░█░░█░█░█░█░█▄█░░█░░█░█░█░█░█░█░█▄█
+░▀▀▀░▀▀▀░▀▀▀░░▀░░▀▀▀░▀░▀░▀▀▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀░░▀▀▀░▀░▀
+ 
+The customization window
+*/
+
+#customization-container {
+	background: var(--bf-bg) !important;
+}
+
+.customizationmode-button {
+	padding: 5px !important;
+	border-radius: 6px !important;
+}
+
+.customizationmode-button {
+	color: var(--bf-color) !important;;
+}
+
+.customizationmode-button:hover {
+	padding: 5px !important;
+	border-radius: 6px !important;
+}
+
+.customizationmode-button label {
+}

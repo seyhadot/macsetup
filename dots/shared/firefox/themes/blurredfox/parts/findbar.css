@@ -1,0 +1,47 @@
+
+/*
+░█▀▀░▀█▀░█▀█░█▀▄░█▀▄░█▀█░█▀▄
+░█▀▀░░█░░█░█░█░█░█▀▄░█▀█░█▀▄
+░▀░░░▀▀▀░▀░▀░▀▀░░▀▀░░▀░▀░▀░▀
+ 
+The findbar
+*/
+
+/* Move Find Bar above the page*/
+
+.browserContainer > findbar {
+
+-moz-box-ordinal-group: 0;
+
+}
+
+#browser #appcontent #tabbrowser-tabbox findbar,
+#browser #appcontent #tabbrowser-tabbox tabpanels {
+	-moz-appearance: none !important;
+	border: none !important;
+}
+
+#browser #appcontent #tabbrowser-tabbox findbar,
+#browser #appcontent #tabbrowser-tabbox tabpanels {
+	background: transparent !important;
+}
+
+#browser #appcontent #tabbrowser-tabbox findbar {
+}
+
+#browser #appcontent #tabbrowser-tabbox findbar {
+	background-color: var(--bf-bg) !important;
+}
+
+.findbar-find-previous,
+.findbar-find-next {
+	margin: 0 !important;
+	border: none !important;
+}
+
+#browser #appcontent #tabbrowser-tabbox .findbar-find-fast {
+}
+
+#browser #appcontent #tabbrowser-tabbox .findbar-find-fast:not([status="notfound"]){
+	background-color: var(--bf-bg) !important;
+}
