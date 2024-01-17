@@ -201,5 +201,7 @@ change_defaults() {
 	defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 	defaults write com.apple.spaces spans-displays -bool false
 
+ 	curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+
 	success_message "Defaults updated"
 }
