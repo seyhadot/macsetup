@@ -147,6 +147,12 @@ change_defaults() {
 	# Restart Finder
 	killall Finder
 
+	echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+
+	chsh -s /usr/local/bin/fish
+
+	touch ~/.hushlogin
+
 	# Mail
 	message "Changing Mail defaults"
 	# Add the keyboard shortcut ⌘ + Enter to send an email in Mail.app
