@@ -153,6 +153,10 @@ change_defaults() {
 
 	touch ~/.hushlogin
 
+ 	(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/sino/.zprofile
+  
+    	eval "$(/usr/local/bin/brew shellenv)"
+
 	# Mail
 	message "Changing Mail defaults"
 	# Add the keyboard shortcut ⌘ + Enter to send an email in Mail.app
