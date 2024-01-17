@@ -154,7 +154,7 @@ change_defaults() {
 	touch ~/.hushlogin
 
  	(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/sino/.zprofile
-  
+
     	eval "$(/usr/local/bin/brew shellenv)"
 
 	# Mail
@@ -200,6 +200,7 @@ change_defaults() {
 	defaults write com.apple.LaunchServices LSQuarantine -bool false
 	defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
 	defaults write com.apple.spaces spans-displays -bool false
+  defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
 
  	curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
