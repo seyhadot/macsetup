@@ -85,13 +85,13 @@ mac_copy_configuration() {
 	# copy_files "$DOTS_DIR"/macos/yabai/home/. "$HOME"
 
 	# symlinks for files that completely replace location
-	link_locations "$MAC_HOME"/.config/alacritty/local.alacritty.yml "$HOME"/.config/alacritty/local.alacritty.yml
-	link_locations "$MAC_HOME"/.config/fish/conf.d/tide.fish "$HOME"/.config/fish/conf.d/tide.fish
-	link_locations "$MAC_HOME"/.config/fish/functions/brew.fish "$HOME"/.config/fish/functions/brew.fish
-	link_locations "$MAC_HOME"/.config/fish/functions/suyabai.fish "$HOME"/.config/fish/functions/suyabai.fish
-	link_locations "$MAC_HOME"/.config/fish/functions/zen.fish "$HOME"/.config/fish/functions/zen.fish
+	# link_locations "$MAC_HOME"/.config/alacritty/local.alacritty.yml "$HOME"/.config/alacritty/local.alacritty.yml
+	# link_locations "$MAC_HOME"/.config/fish/conf.d/tide.fish "$HOME"/.config/fish/conf.d/tide.fish
+	# link_locations "$MAC_HOME"/.config/fish/functions/brew.fish "$HOME"/.config/fish/functions/brew.fish
+	# link_locations "$MAC_HOME"/.config/fish/functions/suyabai.fish "$HOME"/.config/fish/functions/suyabai.fish
+	# link_locations "$MAC_HOME"/.config/fish/functions/zen.fish "$HOME"/.config/fish/functions/zen.fish
 	link_locations "$MAC_HOME"/.config/kitty/macos.kitty.conf "$HOME"/.config/kitty/macos.kitty.conf
-	link_locations "$MAC_HOME"/.config/ranger/config/local.conf "$HOME"/.config/ranger/config/local.conf
+	# link_locations "$MAC_HOME"/.config/ranger/config/local.conf "$HOME"/.config/ranger/config/local.conf
 	link_locations "$MAC_HOME"/.config/sketchybar "$HOME"/.config/sketchybar
 	link_locations "$MAC_HOME"/.config/dynamic-island-sketchybar "$HOME"/.config/dynamic-island-sketchybar
 	link_locations "$MAC_HOME"/.skhdrc "$HOME"/.skhdrc

@@ -70,11 +70,11 @@ customize_dock() {
 
 	sudo su "$USER" -c "defaults write com.apple.dock persistent-apps -array 	\
 '$launchpad' '$settings' '$appstore' '$small_blank' 																		\
-'$messages' '$messenger' '$teams' '$discord' '$mail' '$small_blank' 										\
-'$firefox' '$safari' '$fantastical' '$reminders' '$notes' '$small_blank' 								\
-'$music' '$spotify' '$plex' '$small_blank' 																							\
-'$code' '$github' '$gitkraken' '$small_blank' 													\
-'$alacritty' '$kitty'"
+'$messenger' '$teams' '$discord' '$mail' '$small_blank' 										\
+'$safari' '$fantastical' '$notes' '$small_blank' 								\
+ '$spotify' '$plex' '$small_blank' 																							\
+'$code' '$github' '$small_blank' 													\
+'$kitty'"
 
 	success_message "Dock contents were updated. Restarting dock..."
 
