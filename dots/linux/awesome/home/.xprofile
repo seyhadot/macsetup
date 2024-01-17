@@ -1,3 +1,0 @@
-export QT_QPA_PLATFORMTHEME=qt5ct
-export GTK_THEME=Breeze-Dark
-export GTK_CSD=1

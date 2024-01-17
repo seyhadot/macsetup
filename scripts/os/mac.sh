@@ -96,7 +96,7 @@ mac_copy_configuration() {
 	link_locations "$MAC_HOME"/.config/dynamic-island-sketchybar "$HOME"/.config/dynamic-island-sketchybar
 	link_locations "$MAC_HOME"/.skhdrc "$HOME"/.skhdrc
 	link_locations "$MAC_HOME"/.yabairc "$HOME"/.yabairc
-	link_locations "$HOME"/.config/BetterDiscord "$HOME/Library/Application Support/BetterDiscord"
+	# link_locations "$HOME"/.config/BetterDiscord "$HOME/Library/Application Support/BetterDiscord"
 
 	link_locations "$MAC_HOME"/.local/bin/helper "$HOME"/.local/bin/helper
 	link_locations "$MAC_HOME"/.local/share/fastfetch/presets/local-overrides "$HOME"/.local/share/fastfetch/presets/local-overrides
@@ -108,7 +108,7 @@ mac_copy_configuration() {
 	# copy files that dont replace location
 	copy_files "$MAC_HOME"/.terminfo "$HOME"/
 	copy_files "$MAC_HOME"/Library "$HOME"/
-	copy_files "$HOME"/.mozilla/firefox/ "$HOME/Application Support/Firefox/Profiles/"
+	# copy_files "$HOME"/.mozilla/firefox/ "$HOME/Application Support/Firefox/Profiles/"
 	copy_files "$HOME"/.config/Caprine/ "$HOME/Application Support/Caprine/"
 	copy_files "$MAC_HOME"/Library/Application Support/Code/User/settings.json "$HOME"/Library/Application Support/Code/User/settings.json
 	copy_files "$MAC_HOME"/Library/Application Support/Code/User/keybindings.json "$HOME"/Library/Application Support/Code/User/keybindings.json
@@ -172,7 +172,7 @@ set_wallpapers() {
 }
 
 mac_install() {
-	mac_backup_existing
+	# mac_backup_existing
 
 	# Configure macOS
 	change_defaults
@@ -187,10 +187,8 @@ mac_install() {
 	bundle_install
 	customize_dock
 
-	1password_ssh_link
 	dynamic_island_link
 
-	cat_theme_all
 
 	# Enable services
 	enable_brew_servies

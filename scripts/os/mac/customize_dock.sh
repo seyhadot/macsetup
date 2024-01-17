@@ -20,23 +20,23 @@ create_items() {
 
 	firefox=$(dock_item "/Applications/Firefox Developer Edition.app")
 
-	mail=$(dock_item "/Applications/Thunderbird.app")
+	mail=$(dock_item "/Applications/Google Chrome.app")
 
 	messages=$(dock_item "/System/Applications/Messages.app")
 
 	messenger=$(dock_item "/Applications/Caprine.app")
 
-	teams=$(dock_item "/Applications/Microsoft Teams.app")
+	teams=$(dock_item "/Applications/Telegram.app")
 
 	safari=$(dock_item "/Applications/Safari.app")
 
-	fantastical=$(dock_item "/Applications/Fantastical.app")
+	fantastical=$(dock_item "/Applications/Github Desktop.app")
 
 	reminders=$(dock_item "/System/Applications/Reminders.app")
 
 	music=$(dock_item "/System/Applications/Music.app")
 
-	plex=$(dock_item "/Applications/Plex.app")
+	plex=$(dock_item "/Applications")
 
 	code=$(dock_item "/Applications/Visual Studio Code.app")
 
